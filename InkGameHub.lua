@@ -2,6 +2,7 @@ print ("Loading the script, please wait...")
 
 -- Load Rayfield UI Library
 local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Rayfield/main/source"))()
+local Window = Rayfield:CreateWindow({ ... })
 
 -- Create the Window with Key System and Custom Discord
 local Window = Rayfield:CreateWindow({
