@@ -1,10 +1,8 @@
 print ("Loading the script, please wait...")
 
--- Load Rayfield UI Library
 local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Rayfield/main/source"))()
 local Window = Rayfield:CreateWindow({ ... })
 
--- Create the Window with Key System and Custom Discord
 local Window = Rayfield:CreateWindow({
     Name = "🦑Ink Game Hub | by HyperL",
     LoadingTitle = "Ink Game Script",
@@ -31,7 +29,7 @@ local Window = Rayfield:CreateWindow({
     }
 })
 
-local InfoTab = Window:CreateTab("Info", 4483362458) -- Replace with your own image IDs
+local InfoTab = Window:CreateTab("Info", 4483362458)
 
 InfoTab:CreateButton({
    Name = "📓Copy Discord Link",
@@ -128,9 +126,9 @@ PlayerTab:CreateButton({
    end
 })
 
-local MiscTab = Window:CreateTab("Misc", 4483362458) -- Replace icon ID if needed
+local MiscTab = Window:CreateTab("Misc", 4483362458) 
 
--- 1. TP to Finish Line
+
 MiscTab:CreateButton({
    Name = "TP to Finish Line",
    Callback = function()
@@ -147,7 +145,7 @@ MiscTab:CreateButton({
    end
 })
 
--- 2. TP to Spawn
+
 MiscTab:CreateButton({
    Name = "TP to Spawn",
    Callback = function()
@@ -164,7 +162,7 @@ MiscTab:CreateButton({
    end
 })
 
--- 3. TP to Guard Room
+
 MiscTab:CreateButton({
    Name = "TP to Guard Room",
    Callback = function()
@@ -181,7 +179,7 @@ MiscTab:CreateButton({
    end
 })
 
--- 4. TP to Glass Bridge 
+
 MiscTab:CreateButton({
    Name = "TP to Glass Bridge",
    Callback = function()
